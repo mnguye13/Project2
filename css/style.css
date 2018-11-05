@@ -1,9 +1,20 @@
-h1 { font-size: 4.236em }
-h2 { font-size: 2.618em }
-h3 { font-size: 1.618em }
-h4 { font-size: 1em }
+h1 {
+  font-size: 4.236em
+}
 
-header{
+h2 {
+  font-size: 2.618em
+}
+
+h3 {
+  font-size: 1.618em
+}
+
+h4 {
+  font-size: 1em
+}
+
+header {
   background-image: url("https://www.peru.travel/perutherichestcountry/usa/assets/images/facebook_share_1200x630.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,33 +24,36 @@ header{
   line-height: 1.5;
 }
 
-
-header h1, header h2, header h3,header h4{
+header h1, header h2, header h3, header h4 {
   text-align: center;
   color: white;
-  font-family: 'Dancing Script','Courgette', cursive;
+  font-family: 'Dancing Script', 'Courgette', cursive;
 }
 
-section h2{
+section h2 {
   text-align: center;
-  font-family: 'PT Serif','Noto Serif', serif;
+  font-family: 'PT Serif', 'Noto Serif', serif;
 }
 
-section button{
+section button {
   background-color: white;
   color: black;
   border: 1px solid rgba(0, 0, 0, 0.8);
   width: 25%;
   margin-left: 37.5%;
 }
+
 button:hover {
-    background-color: grey; /*grey*/
-    color: white;
+  background-color: grey;
+  /*grey*/
+  color: white;
 }
-body{
+
+body {
   background-color: pink;
 }
-button{
+
+button {
   background-color: #4CAF50;
   border-radius: 8px;
   border: none;
@@ -56,53 +70,56 @@ button{
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    width: 100%;
-    top: 0;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
 }
 
 li {
-    float: right;
+  float: right;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+  background-color: #111;
 }
-section, footer{
+
+section, footer {
   margin-top: 0.2%;
 }
-footer{
+
+footer {
   background-color: #333;
   padding: 2%;
 }
 
-.container{
-  background-color: white;
-  padding: 5%;
-}
-.container1{
+.container {
   background-color: white;
   padding: 5%;
 }
 
-p{
+.container1 {
+  background-color: white;
+  padding: 5%;
+}
+
+p {
   line-height: 1.5;
   font-size: 20px;
   text-align: center;
-  font-family: 'Amiri','Tinos', serif;
+  font-family: 'Amiri', 'Tinos', serif;
 }
 
 .grid-container {
@@ -111,56 +128,102 @@ p{
   grid-template-columns: auto auto auto;
   background-color: white;
 }
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 25px;
+  position: relative;
+  text-align: center;
 }
+
+.grid-item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Pattaya', 'Libre Baskerville', sans-serif;
+  font-size: 30px;
+}
+
 .grid-item1 {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
   text-align: center;
 }
-.grid-item1 p{
+
+.grid-item1 p {
   font-size: 1.5vw;
 }
-#america{
-  width: 100%;
-}
-#peru{
-  width: 100%;
-}
-#japan{
-  width: 100%;
-}
-#rome{
-  width: 100%;
-}
-#street{
-  width: 100%;
-}
-#greece{
+
+#america {
   width: 100%;
 }
 
-#email{
+#peru {
+  width: 100%;
+}
+
+#japan {
+  width: 100%;
+}
+
+#rome {
+  width: 100%;
+}
+
+#street {
+  width: 100%;
+}
+
+#greece {
+  width: 100%;
+}
+
+#email {
   width: 20%;
 }
-#phone{
+
+#phone {
   width: 22%;
 }
-#facebook{
+
+#facebook {
   width: 40%;
 }
 
 @media screen and (max-width: 960px) {
-	h1 { font-size: 2.369em }
-	h2 { font-size: 1.777em }
-	h3 { font-size: 1.333em }
-	h4 { font-size: 1em }
+  h1 {
+    font-size: 2.369em
+  }
+
+  h2 {
+    font-size: 1.777em
+  }
+
+  h3 {
+    font-size: 1.333em
+  }
+
+  h4 {
+    font-size: 1em
+  }
 }
+
 @media screen and (max-width: 1024px) {
-	h1 { font-size: 3.157em }
-	h2 { font-size: 2.369em }
-	h3 { font-size: 1.777em }
-	h4 { font-size: 1.333em }
+  h1 {
+    font-size: 3.157em
+  }
+
+  h2 {
+    font-size: 2.369em
+  }
+
+  h3 {
+    font-size: 1.777em
+  }
+
+  h4 {
+    font-size: 1.333em
+  }
 }
