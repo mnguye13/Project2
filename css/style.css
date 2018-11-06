@@ -78,6 +78,7 @@ ul {
   background-color: #333;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 li {
@@ -278,6 +279,16 @@ p {
     font-size: 1em
   }
 
+  button{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  section button{
+    width: 60%;
+    margin-left: 20%;
+  }
+
   .grid-container {
     grid-template-columns: auto;
   }
@@ -288,6 +299,8 @@ p {
   .modal-content p {
     font-size: 5vw;
   }
+
+
 }
 
 @media screen and (max-width: 1024px) {
