@@ -464,12 +464,14 @@ button {
 .circle {
   display: inline-block;
   width: 20%;
-  background-color: #303030;
-  border-radius: 120px;
+  background-color: white;
   position: relative;
-  top: -50px;
+  top: -30px;
 }
 
+.circle img{
+	width: 100%;
+}
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: 3.333vw
