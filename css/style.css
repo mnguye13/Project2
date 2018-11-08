@@ -245,6 +245,9 @@ p {
 
 .modal-content p {
   font-family: 'Amiri', 'Tinos', serif;
+  text-align: left;
+  line-height: 2;
+  margin-bottom: 3%;
 }
 
 /* The Close Button */

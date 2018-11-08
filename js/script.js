@@ -9,3 +9,8 @@ function aboutModal(){
     modal.style.display = "none";
   }
 }
+
+function confirmSubmit(){
+  var fullname = document.getElementById("firstname");
+  alert("Thanks " + firstname.value + " for joining us");
+}
